@@ -14,7 +14,7 @@ def parse():
 
 def main():
     args = parse()
-    c0 = CasGuess.load(args.c0,args.nao,args.nmo)
+    c0 = CasGuess.load(args.c0,args.nbf,args.nmo)
     c0.swap(args.mo1,args.mo2)
     c0.save(args.out)
 
