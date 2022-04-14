@@ -1,0 +1,2 @@
+diff ref.molden c0.casscf.molden 
+should return no differences
