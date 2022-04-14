@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 
 @dataclass
-class casguess:
+class CasGuess:
     c: np.array
 
     @classmethod
